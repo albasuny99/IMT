@@ -1,0 +1,31 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////// Author      : Mohamed Nasser Al-Basuny	   //////////////////////////////
+////////////////////// date			: 16/7/2022						/////////////////////////////
+///////////////////// Version       : 1.0 V							 ////////////////////////////
+//////////////////// Descriotion	:  lec3 lab 2		             ////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+void main(void)
+{
+	int user_number =0;
+	int summtion =0;
+	float average =0;
+	int for_counter=0;
+	
+	
+	for(for_counter =0;for_counter <10;for_counter++)
+	{
+		printf("Enter the Number %d : ",for_counter +1);
+		scanf("%d",&user_number);
+		
+		summtion=summtion + user_number;
+		
+		
+		
+	}
+	
+	average =summtion/10;
+	printf("the Sumtion = %d \n",summtion);
+	printf("the Average = %0.1f \n",average);
+}
